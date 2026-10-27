@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased font-sans text-slate-900 bg-slate-100 min-h-screen selection:bg-amber-300 selection:text-black;
+  }
+}
+
+/* Ultra High Contrast accessibility theme */
+.high-contrast {
+  --bg-primary: #000000;
+  --text-primary: #FFFFFF;
+  --accent-yellow: #FFFF00;
+  --accent-border: #FFFF00;
+}
+
+.high-contrast body {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.high-contrast input,
+.high-contrast textarea,
+.high-contrast select {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  border-color: #FFFF00 !important;
+  border-width: 2px !important;
+}
+
+.high-contrast button {
+  border-width: 2px !important;
+}
+
+.high-contrast input:focus,
+.high-contrast textarea:focus,
+.high-contrast select:focus,
+.high-contrast button:focus {
+  outline: 3px solid #FFFF00 !important;
+  outline-offset: 2px !important;
+}

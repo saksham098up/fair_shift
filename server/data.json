@@ -1,0 +1,110 @@
+{
+  "checkins": [
+    {
+      "id": "chk-mvq9buu1-xxj6",
+      "workerName": "Rajesh Kumar",
+      "workerId": "EMP-4081",
+      "role": "Forklift Operator",
+      "shiftType": "Morning",
+      "checkInTime": "2026-10-27T05:40:52.825Z",
+      "checkOutTime": null,
+      "status": "active",
+      "location": "Warehouse Bay 4"
+    },
+    {
+      "id": "chk-101",
+      "workerName": "Rajesh Kumar",
+      "workerId": "EMP-4081",
+      "role": "Forklift Operator",
+      "shiftType": "Morning",
+      "checkInTime": "2026-10-27T01:56:53.150Z",
+      "checkOutTime": "2026-10-27T05:40:14.815Z",
+      "status": "completed",
+      "location": "Warehouse Bay 4",
+      "hoursWorked": 3.7
+    },
+    {
+      "id": "chk-102",
+      "workerName": "Priya Sharma",
+      "workerId": "EMP-3129",
+      "role": "Assembly Technician",
+      "shiftType": "Morning",
+      "checkInTime": "2026-10-27T01:26:53.151Z",
+      "checkOutTime": null,
+      "status": "active",
+      "location": "Assembly Line 2"
+    },
+    {
+      "id": "chk-103",
+      "workerName": "Amit Patel",
+      "workerId": "EMP-1845",
+      "role": "Quality Inspector",
+      "shiftType": "Morning",
+      "checkInTime": "2026-10-27T03:26:53.151Z",
+      "checkOutTime": null,
+      "status": "active",
+      "location": "Inspection Station C"
+    },
+    {
+      "id": "chk-104",
+      "workerName": "Sunita Verma",
+      "workerId": "EMP-5920",
+      "role": "Packaging Specialist",
+      "shiftType": "Night",
+      "checkInTime": "2026-10-26T15:26:53.151Z",
+      "checkOutTime": "2026-10-26T23:26:53.151Z",
+      "status": "completed",
+      "location": "Packaging Line 1"
+    },
+    {
+      "id": "chk-105",
+      "workerName": "Vikram Singh",
+      "workerId": "EMP-2204",
+      "role": "Maintenance Specialist",
+      "shiftType": "Night",
+      "checkInTime": "2026-10-26T14:26:53.151Z",
+      "checkOutTime": "2026-10-26T22:26:53.151Z",
+      "status": "completed",
+      "location": "Maintenance Shop 3"
+    }
+  ],
+  "hazards": [
+    {
+      "id": "haz-201",
+      "reportedBy": "Rajesh Kumar",
+      "workerId": "EMP-4081",
+      "category": "slip_trip",
+      "severity": "high",
+      "location": "Aisle 7 near Loading Dock",
+      "description": "Hydraulic oil puddle leaking from stationary pallet lifter. Significant slip hazard for workers.",
+      "status": "open",
+      "reportedAt": "2026-10-27T03:56:53.151Z",
+      "adminNotes": "Awaiting cleanup crew dispatch."
+    },
+    {
+      "id": "haz-202",
+      "reportedBy": "Amit Patel",
+      "workerId": "EMP-1845",
+      "category": "electrical",
+      "severity": "critical",
+      "location": "Conveyor Junction Box 12",
+      "description": "Exposed wire casing with sparking visible during startup cycle. Immediate safety lockout recommended.",
+      "status": "investigating",
+      "reportedAt": "2026-10-27T04:36:53.151Z",
+      "adminNotes": "Electrician dispatched with Lockout/Tagout protocol."
+    },
+    {
+      "id": "haz-203",
+      "reportedBy": "Priya Sharma",
+      "workerId": "EMP-3129",
+      "category": "equipment",
+      "severity": "low",
+      "location": "Station 2 Safety Rail",
+      "description": "Emergency stop guard latch is loose and rattles during heavy vibration.",
+      "status": "resolved",
+      "reportedAt": "2026-10-26T21:26:53.151Z",
+      "resolvedAt": "2026-10-27T03:26:53.151Z",
+      "adminNotes": "Latch tightened and safety inspected by Shift Supervisor."
+    }
+  ]
+}
